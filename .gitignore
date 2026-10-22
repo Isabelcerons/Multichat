@@ -1,0 +1,20 @@
+.env
+.venv/
+__pycache__/
+data/
+models/
+tools/
+tessdata/
+*.part
+
+# Base de conocimiento: en el repositorio solo van los ejemplos del proyecto.
+# Los archivos que cada quien agregue (personales, de WhatsApp, etc.) se quedan en su PC.
+conocimiento/*/*
+!conocimiento/*/.gitkeep
+!conocimiento/audios/clase_paneles_solares.mp3
+!conocimiento/audios/podcast_baterias_litio.mp3
+!conocimiento/imagenes/foto_carro_semillero.png
+!conocimiento/pdfs/Guia_energia_solar.pdf
+!conocimiento/pdfs/Manual_movilidad_electrica.pdf
+!conocimiento/videos/video_carga_carro_electrico.mp4
+!conocimiento/videos/video_instalacion_solar.mp4
